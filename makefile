@@ -65,6 +65,7 @@ git-amend:
 	git log | head -5
 
 deploy:
+	sf config get target-org
 	sf project deploy start
 
 deploy-f:
